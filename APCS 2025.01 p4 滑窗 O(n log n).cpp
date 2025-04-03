@@ -2,7 +2,7 @@
 #include <algorithm>
 using namespace std;
 
-const long long INF = 1e18; // 我討厭你
+const long long INF = 1e14; // 我討厭你
 const int N = 200005;
 long long x[N], dp[N];
 
