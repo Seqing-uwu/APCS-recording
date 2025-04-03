@@ -16,7 +16,7 @@ int main() {
 	for (int i=0; i<n; i++) {
 		cin >> x[i];
 	}
-	// 雖然範例測資都給排序過的, 但保險還是寫一下
+
 	sort(x, x+n);
 	
 	int half = k/2;
