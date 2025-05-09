@@ -18,7 +18,7 @@ int main() {
 	for (int i=0; i<n; i++) {
 		if (!used[i]) {
 			int cur = i;
-			while (!used[cur]) { // DFS yes
+			while (!used[cur]) { // DFS 找環
 				used[cur] = true;
 				cur = a[cur];
 			}
